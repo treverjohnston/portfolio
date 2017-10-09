@@ -20,12 +20,12 @@
       <v-container fluid>
         <router-view>
         </router-view>
-      </v-container>
-      <v-container fluid>
-        <skills></skills>
-      </v-container>
-      <v-container fluid>
-        <projects></projects>
+      <!-- </v-container> -->
+      <!-- <v-container fluid> -->
+        <!-- <skills></skills> -->
+      <!-- </v-container> -->
+      <!-- <v-container fluid> -->
+        <!-- <projects></projects> -->
       </v-container>
     </main>
     <v-navigation-drawer temporary :right="right" v-model="rightDrawer">

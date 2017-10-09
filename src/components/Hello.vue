@@ -33,8 +33,12 @@
         </v-card>
       </v-flex>
     </v-layout>
-    <!-- <skills></skills>
-<projects></projects> -->
+    <div class="skills">
+      <skills></skills>
+    </div>
+    <div class="projects">
+      <projects></projects>
+    </div>
   </div>
 </template>
 
@@ -72,5 +76,11 @@
   .para{
     background-color: rgba(168, 162, 162, 0.6);
     color: white;
+  }
+  .skills{
+    margin: 20rem 0 20rem 0;
+  }
+  .projects{
+    margin: 10rem 0 10rem 0;
   }
 </style>

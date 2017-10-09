@@ -49,6 +49,14 @@ var store = new vuex.Store({
 
             },
             {
+                src: '../static/music.png',
+                name: 'BCW-Music',
+                link: 'https://bcw-music.herokuapp.com/',
+                show: false,
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+
+            },
+            {
                 src: '../static/hogwartsCrest.png',
                 name: 'Hogwarts Un-Official Site',
                 link: 'https://treverjohnston.github.io/clonesite/',
