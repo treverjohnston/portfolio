@@ -2,30 +2,34 @@
   
   <v-app light>
     <v-toolbar fixed>
-      <router-link :to="'/'">
+      <!-- <router-link :to="'/'">
         <v-btn icon light>
           <v-icon>home</v-icon>
         </v-btn>
-      </router-link>
+      </router-link> -->
+      <a href="//github.com/treverjohnston" target="_blank">
+        <v-btn icon>
+          <v-icon>fa-github</v-icon>
+        </v-btn>
+      </a>
+      <a href="//www.linkedin.com/in/trever-johnston-7a6073113/" target="_blank">
+        <v-btn icon>
+          <v-icon>fa-linkedin-square</v-icon>
+        </v-btn>
+      </a>
       <v-btn icon light @click.stop="fixed = !fixed">
         <v-icon>remove</v-icon>
       </v-btn>
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn icon light @click.stop="rightDrawer = !rightDrawer">
+      <!-- <v-btn icon light @click.stop="rightDrawer = !rightDrawer">
         <v-icon>menu</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
     <main>
       <v-container fluid>
-        <router-view>
+              <router-view>
         </router-view>
-      <!-- </v-container> -->
-      <!-- <v-container fluid> -->
-        <!-- <skills></skills> -->
-      <!-- </v-container> -->
-      <!-- <v-container fluid> -->
-        <!-- <projects></projects> -->
       </v-container>
     </main>
     <v-navigation-drawer temporary :right="right" v-model="rightDrawer">
@@ -45,7 +49,7 @@
       return {
         clipped: false,
         drawer: true,
-        fixed: true,
+        fixed: false,
         items: [
           { icon: 'bubble_chart', title: 'Inspire' }
         ],
@@ -78,5 +82,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Bellefair', serif;
+}
+.application--light .toolbar{
+  background-color: rgba(255, 255, 255, .7)
 }
 </style>

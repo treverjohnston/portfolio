@@ -3,22 +3,31 @@
     <v-layout>
       <v-flex xs12>
         <v-card class="para">
-          <v-parallax height="200"src="">
+          <img class="ava" src="../../static/me.jpg" alt="avatar">
+          <v-parallax height="200" src="">
             <v-layout column align-center justify-center>
-              <h1 class="white--text">Trever Johnston</h1>
-              <h4 class="white--text">Full Stack Web-Developer</h4>
+              <h1 class="black--text">Trever Johnston</h1>
+              <h4 class="black--text">Full Stack Web-Developer</h4>
             </v-layout>
           </v-parallax>
           <v-card-title primary-title>
             <div>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias vitae iure earum hic dolores at distinctio sequi vel
-                in consequuntur laudantium, id itaque maiores quo qui voluptate omnis nesciunt voluptatum repellendus laboriosam
-                error, deleniti iusto impedit. Ex perspiciatis nam cupiditate.
+                I spent the first 15 years of my life growing up in Longmont, Colorado. Once I hit high school, I moved out to Boise, Idaho
+                with the rest of my family where I have more or less resided for the past 6 years. I started my college career
+                at George Fox University in Oregon. However, upon getting married I moved back to Boise and attended Boise
+                State for a year, pursuing a Bachelor's in History and Education. Prior to entering my Junior year at BSU,
+                I discovered a love and aptitude for coding. Since then, I have been doing everything that I can to improve
+                this ability in every way possible.
+              </p>
+              <p>
+                When I am not coding, I enjoy a wide variety of activities. I love to snowboard, read, woodwork, fish, play video games,
+                and especially, spend time with my wife and family.
               </p>
             </div>
           </v-card-title>
-          <v-card-actions>
+          <!-- </v-parallax> -->
+          <!-- <v-card-actions>
             <router-link :to="'projects'">
               <v-btn light icon>
                 <v-icon>code</v-icon>
@@ -29,7 +38,7 @@
                 <v-icon>donut_small</v-icon>
               </v-btn>
             </router-link>
-          </v-card-actions>
+          </v-card-actions> -->
         </v-card>
       </v-flex>
     </v-layout>
@@ -70,17 +79,25 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .ava{
+    height: 15rem;
+    width: 10rem;
+  }
   .img {
     height: 15rem;
   }
-  .para{
+
+  .para {
     background-color: rgba(168, 162, 162, 0.6);
-    color: white;
+    /* color: white; */
+    color: black;
   }
-  .skills{
-    margin: 20rem 0 20rem 0;
+
+  .skills {
+    margin: 10rem 0 10rem 0;
   }
-  .projects{
+
+  .projects {
     margin: 10rem 0 10rem 0;
   }
 </style>

@@ -29,7 +29,7 @@ var store = new vuex.Store({
                 name: 'Keepr',
                 link: 'https://keepur.herokuapp.com/',
                 show: false,
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+                description: "A Pintrest clone, set up with Vue.js, Node, Vuetify and MongoDB."
 
             },
             {
@@ -37,7 +37,7 @@ var store = new vuex.Store({
                 name: 'Tattoo-Me',
                 link: 'https://tattoo-me.herokuapp.com',
                 show: false,
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+                description: "A Hackathon project that was set up using Vue.js, Vue-Material, Bootstrap, Node, and MongoDB.  This app allows users to do many things, but at it's core it is a way for users to look up tattoos and try them on themselves via canvas overlay."
 
             },
             {
@@ -45,7 +45,7 @@ var store = new vuex.Store({
                 name: 'Kanban Board',
                 link: 'https://our-kanban-vue.herokuapp.com/',
                 show: false,
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+                description: "Full stack application using Vue, Node, Boostrap and MongoDB to build Kanban boards to better help users with project management in a similar fashion to trello."
 
             },
             {
@@ -53,45 +53,78 @@ var store = new vuex.Store({
                 name: 'BCW-Music',
                 link: 'https://bcw-music.herokuapp.com/',
                 show: false,
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+                description: "Project built with Vue.js which uses the iTunes API as well as Node.js to build a playlist of short music clips persisted through a node server running on heroku."
 
             },
-            {
-                src: '../static/hogwartsCrest.png',
-                name: 'Hogwarts Un-Official Site',
-                link: 'https://treverjohnston.github.io/clonesite/',
-                show: false,
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
+            // {
+            //     src: '../static/hogwartsCrest.png',
+            //     name: 'Hogwarts Un-Official Site',
+            //     link: 'https://treverjohnston.github.io/clonesite/',
+            //     show: false,
+            //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor architecto quisquam eveniet, quae dicta repellendus minima, nostrum culpa id esse sed voluptates distinctio a aspernatur, corrupti commodi repellat delectus."
 
-            },
+            // },
             {
                 name: "Slap Game",
-                description: "description",
+                description: "A simple 'Slap Game' which utilizes vanilla JavaScript and Bootstrap",
                 src: "../static/archer.png",
                 link: "https://treverjohnston.github.io/SlapGame/",
                 show: false
             },
         ],
-        skills: [
+        frontskills: [
             {
                 skill: "html",
-                value: 25,
+                value: 90,
                 url: "../static/html.png"
             },
             {
                 skill: "css",
-                value: 99,
+                value: 90,
                 url: "../static/css3.png"
             },
             {
                 skill: "javascript",
-                value: 100,
-                url: "../static/javascript-fixed.png"
+                value: 90,
+                url: "../static/javascript.png"
             },
             {
                 skill: "vue.js",
-                value: 23,
-                url: "../static/v.png"
+                value: 90,
+                url: "../static/logo.png"
+            },
+            {
+                skill: "jquery",
+                value: 75,
+                url: "../static/jquery.png"
+            },
+            {
+                skill: "bootstrap",
+                value: 85,
+                url: "../static/bootstrap.png"
+            },
+        ],
+        backskills: [
+
+            {
+                skill: "node.js",
+                value: 90,
+                url: "../static/node.svg"
+            },
+            {
+                skill: "mongoDB",
+                value: 90,
+                url: "../static/mongo.png"
+            },
+            {
+                skill: "c#",
+                value: 60,
+                url: "../static/csharp.png"
+            },
+            {
+                skill: "sql",
+                value: 60,
+                url: "../static/sql.png"
             },
         ]
 

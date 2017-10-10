@@ -1,19 +1,45 @@
 <template>
     <div class="skills">
-        <v-layout  column>
+        <v-layout column>
             <v-flex xs12>
+                <v-card-title>
+                    <h3>Front-End</h3>
+                </v-card-title>
                 <v-container fluid grid-list-md>
                     <v-layout row wrap>
-                        <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in skills" :key="card.title">
+                        <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in frontskills" :key="card.title">
                             <!-- <v-card class="img"> -->
-                                <v-progress-circular  class="circle" v-bind:size="100" v-bind:width="15" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
-                                    <img :src="card.url" :height="50" :alt="card.skill">
-                                </v-progress-circular>
-                                <v-card-title primary-title>
-                                    <div>
-                                        <h3 class="headline mb-0">{{card.skill}}</h3>
-                                    </div>
-                                </v-card-title>
+                            <v-progress-circular class="circle" v-bind:size="100" v-bind:width="15" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
+                                <img :src="card.url" :height="50" :alt="card.skill">
+                            </v-progress-circular>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">{{card.skill}}</h3>
+                                </div>
+                            </v-card-title>
+                            <!-- </v-card> -->
+                        </v-flex>
+                    </v-layout>
+                </v-container>
+            </v-flex>
+        </v-layout>
+        <v-layout column>
+            <v-flex xs12>
+                <v-card-title>
+                    <h3>Back-End</h3>
+                </v-card-title>
+                <v-container fluid grid-list-md>
+                    <v-layout row wrap>
+                        <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in backskills" :key="card.title">
+                            <!-- <v-card class="img"> -->
+                            <v-progress-circular class="circle" v-bind:size="100" v-bind:width="15" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
+                                <img :src="card.url" :height="50" :alt="card.skill">
+                            </v-progress-circular>
+                            <v-card-title primary-title>
+                                <div>
+                                    <h3 class="headline mb-0">{{card.skill}}</h3>
+                                </div>
+                            </v-card-title>
                             <!-- </v-card> -->
                         </v-flex>
                     </v-layout>
@@ -36,9 +62,12 @@
         components: {
         },
         computed: {
-skills(){
-    return this.$store.state.skills
-}
+            frontskills() {
+                return this.$store.state.frontskills
+            },
+            backskills() {
+                return this.$store.state.backskills
+            }
         },
         methods: {
 
@@ -55,18 +84,18 @@ skills(){
         /* color: blue; */
         background-color: transparent;
         color: white;
-
     }
 
     .circle {
         text-align: center;
         color: blue;
-
     }
-    .para{
+
+    .para {
         background-color: transparent;
     }
-    .headline{
+
+    .headline {
         color: white;
     }
 </style>
