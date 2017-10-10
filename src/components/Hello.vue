@@ -14,7 +14,7 @@
               </v-flex>
             </v-layout>
           </v-parallax>
-          <v-card-title primary-title>
+          <v-card-title class="font" primary-title>
             <p>
               I spent the first 15 years of my life growing up in Longmont, Colorado. Once I hit high school, I moved out to Boise, Idaho
               with the rest of my family where I have more or less resided for the past 6 years. I started my college career
@@ -81,9 +81,12 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .font{
+    font-size: 1.5rem;
+  }
   .ava {
-    height: 15rem;
-    width: 10rem;
+    height: 20rem;
+    width: 12\4rem;
     margin-top: 2rem;
   }
 

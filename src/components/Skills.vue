@@ -9,8 +9,8 @@
                     <v-layout row wrap>
                         <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in frontskills" :key="card.title">
                             <!-- <v-card class="img"> -->
-                            <v-progress-circular class="circle" v-bind:size="100" v-bind:width="15" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
-                                <img :src="card.url" :height="50" :alt="card.skill">
+                            <v-progress-circular class="circle" v-bind:size="200" v-bind:width="30" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
+                                <img :src="card.url" :height="100" :alt="card.skill">
                             </v-progress-circular>
                             <v-card-title primary-title>
                                 <div>
@@ -32,8 +32,8 @@
                     <v-layout row wrap>
                         <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in backskills" :key="card.title">
                             <!-- <v-card class="img"> -->
-                            <v-progress-circular class="circle" v-bind:size="100" v-bind:width="15" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
-                                <img :src="card.url" :height="50" :alt="card.skill">
+                            <v-progress-circular class="circle" v-bind:size="200" v-bind:width="30" v-bind:rotate="-90" v-bind:value="card.value" color="purple">
+                                <img :src="card.url" :height="100" :alt="card.skill">
                             </v-progress-circular>
                             <v-card-title primary-title>
                                 <div>
@@ -80,6 +80,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    
     .img {
         /* color: blue; */
         background-color: transparent;

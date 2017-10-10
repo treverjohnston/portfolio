@@ -74,32 +74,32 @@ var store = new vuex.Store({
         ],
         frontskills: [
             {
-                skill: "html",
+                skill: "HTML",
                 value: 90,
                 url: "../static/html.png"
             },
             {
-                skill: "css",
+                skill: "CSS",
                 value: 90,
                 url: "../static/css3.png"
             },
             {
-                skill: "javascript",
+                skill: "JavaScript",
                 value: 90,
                 url: "../static/javascript.png"
             },
             {
-                skill: "jquery",
+                skill: "JQuery",
                 value: 75,
                 url: "../static/jquery.png"
             },
             {
-                skill: "vue.js",
+                skill: "Vue.JS",
                 value: 90,
                 url: "../static/logo.png"
             },
             {
-                skill: "bootstrap",
+                skill: "Bootstrap",
                 value: 85,
                 url: "../static/bootstrap.png"
             },
@@ -107,22 +107,22 @@ var store = new vuex.Store({
         backskills: [
 
             {
-                skill: "node.js",
+                skill: "Node.JS",
                 value: 90,
                 url: "../static/node.svg"
             },
             {
-                skill: "mongoDB",
+                skill: "MongoDB",
                 value: 90,
                 url: "../static/mongo.png"
             },
             {
-                skill: "c#",
+                skill: "C#",
                 value: 60,
                 url: "../static/csharp.png"
             },
             {
-                skill: "sql",
+                skill: "SQL",
                 value: 40,
                 url: "../static/sql.png"
             },
