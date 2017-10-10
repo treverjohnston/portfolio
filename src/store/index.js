@@ -89,14 +89,14 @@ var store = new vuex.Store({
                 url: "../static/javascript.png"
             },
             {
-                skill: "vue.js",
-                value: 90,
-                url: "../static/logo.png"
-            },
-            {
                 skill: "jquery",
                 value: 75,
                 url: "../static/jquery.png"
+            },
+            {
+                skill: "vue.js",
+                value: 90,
+                url: "../static/logo.png"
             },
             {
                 skill: "bootstrap",
@@ -123,7 +123,7 @@ var store = new vuex.Store({
             },
             {
                 skill: "sql",
-                value: 60,
+                value: 40,
                 url: "../static/sql.png"
             },
         ]
