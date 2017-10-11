@@ -49,7 +49,7 @@ var store = new vuex.Store({
 
             },
             {
-                src: '../static/music.jpg',
+                src: '../static/background.jpg',
                 name: 'BCW-Music',
                 link: 'https://bcw-music.herokuapp.com/',
                 show: false,
