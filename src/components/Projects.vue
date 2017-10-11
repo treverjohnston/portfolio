@@ -21,34 +21,10 @@
                                 <div class="overlay">
                                     <p class="text">{{card.description}}</p>
                                 </div>
-                                <!-- <v-card-actions class="white">
-                                    <v-spacer></v-spacer>
-                                    <v-card-text>
-                                        <a :href="card.link" target="_blank">
-                                            {{card.name}}
-                                            </a>
-                                        </v-card-text>
-                                        <div v-if="!card.show">
-                                            <v-btn @click.stop="card.show = !card.show" icon>
-                                                <v-icon>keyboard_arrow_down</v-icon>
-                                            </v-btn>
-                                        </div>
-                                        <div v-if="card.show">
-                                            <v-btn @click.stop="card.show = !card.show" icon>
-                                                <v-icon>keyboard_arrow_up</v-icon>
-                                            </v-btn>
-                                            <p>
-                                                {{card.description}}
-                                            </p>
-                                            <a :href="card.link" target="_blank">
-                                                <v-btn class="link">Visit Site?</v-btn>
-                                            </a>
-                                        </div>
-                                    </v-card-actions> -->
-                                </v-card>
-                                    <a :href="card.link" target="_blank">
-                                        <v-btn class="link">Visit Site?</v-btn>
-                                    </a>
+                            </v-card>
+                            <a :href="card.link" target="_blank">
+                                <v-btn class="link">Visit Site?</v-btn>
+                            </a>
                         </v-flex>
                     </v-layout>
                 </v-container>
@@ -92,6 +68,8 @@
         left: 40%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
+        /* text-transform: uppercase; */
+        font-family: 'Bellefair', serif;
     }
 
     .para:hover .overlay {
@@ -117,7 +95,7 @@
     }
 
     .media {
-        min-width: 20rem;
+        min-width: 30rem;
         display: block;
     }
 

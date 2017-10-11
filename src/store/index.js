@@ -25,7 +25,7 @@ var store = new vuex.Store({
     state: {
         projects: [
             {
-                src: '../static/keepr.png',
+                src: '../static/keepr.jpg',
                 name: 'Keepr',
                 link: 'https://keepur.herokuapp.com/',
                 show: false,
@@ -33,7 +33,7 @@ var store = new vuex.Store({
 
             },
             {
-                src: '../static/tattoo.png',
+                src: '../static/tattoo.jpg',
                 name: 'Tattoo-Me',
                 link: 'https://tattoo-me.herokuapp.com',
                 show: false,
@@ -41,7 +41,7 @@ var store = new vuex.Store({
 
             },
             {
-                src: '../static/kanban.png',
+                src: '../static/kanban.jpg',
                 name: 'Kanban Board',
                 link: 'https://our-kanban-vue.herokuapp.com/',
                 show: false,
@@ -49,7 +49,7 @@ var store = new vuex.Store({
 
             },
             {
-                src: '../static/music.png',
+                src: '../static/music.jpg',
                 name: 'BCW-Music',
                 link: 'https://bcw-music.herokuapp.com/',
                 show: false,
