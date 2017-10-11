@@ -9,7 +9,7 @@
                     <v-layout row wrap>
                         <v-flex v-bind="{ [`xs${card.flex}`]: true }" v-for="card in projects" :key="card.title">
                             <v-card class="para">
-                                <v-card-media class="media" :src="card.src" height="500px">
+                                <v-card-media class="media elevation-24" :src="card.src" height="500px">
                                     <v-container fill-height fluid>
                                         <v-layout fill-height>
                                             <v-flex xs12 align-end flexbox>
@@ -95,7 +95,7 @@
     }
 
     .media {
-        min-width: 30rem;
+        min-width: 20rem;
         display: block;
     }
 

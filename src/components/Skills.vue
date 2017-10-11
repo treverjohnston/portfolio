@@ -80,7 +80,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    
+    .headline{
+        text-align: center;
+    }
     .img {
         /* color: blue; */
         background-color: transparent;

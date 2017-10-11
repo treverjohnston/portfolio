@@ -28,19 +28,6 @@
               and especially, spend time with my wife and family.
             </p>
           </v-card-title>
-          <!-- </v-parallax> -->
-          <!-- <v-card-actions>
-            <router-link :to="'projects'">
-              <v-btn light icon>
-                <v-icon>code</v-icon>
-              </v-btn>
-            </router-link>
-            <router-link :to="'skills'">
-              <v-btn light icon>
-                <v-icon>donut_small</v-icon>
-              </v-btn>
-            </router-link>
-          </v-card-actions> -->
         </v-card>
       </v-flex>
     </v-layout>
@@ -86,8 +73,9 @@
   }
   .ava {
     height: 20rem;
-    width: 12\4rem;
+    /* width: 14rem; */
     margin-top: 2rem;
+    border-radius: 5px;
   }
 
   .img {
