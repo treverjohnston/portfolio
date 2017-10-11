@@ -23,7 +23,7 @@
                                 </div>
                             </v-card>
                             <a :href="card.link" target="_blank">
-                                <v-btn class="link">Visit Site?</v-btn>
+                                <v-btn class="link">Visit Site</v-btn>
                             </a>
                         </v-flex>
                     </v-layout>
